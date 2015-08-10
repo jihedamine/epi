@@ -45,7 +45,7 @@ public class BaseConversion {
 
     @Test
     public void test() {
-        assertEquals(convertBase("615", 7, 13), "1A7");
+        assertEquals("1A7", convertBase("615", 7, 13));
     }
 
 }
